@@ -475,7 +475,7 @@ esp_err_t spi_bus_register_destroy_func(spi_host_device_t host_id,
  * 3. The ISR failed to quit and have to try again.
  ******************************************************************************/
 
-#define DEV_NUM_MAX 6     ///< Number of devices supported by this lock
+#define DEV_NUM_MAX 32     ///< Number of devices supported by this lock
 
 /// Lock configuration struct
 typedef struct {
